@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "mylife-myrule11-dev" 
-    key    = "roboshop-dev-sg-names"
+    key    = "roboshop-dev-sg-ek"
     region = "us-east-1"
     encrypt = true
     use_lockfile = true
