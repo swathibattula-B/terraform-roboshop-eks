@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket  = "remote-state-aws-88s-dev" # Replace with your unique bucket name
+    bucket  = "mylife-myrule11-dev" # Replace with your unique bucket name
     key     = "terraform-eks-ecr"
     region  = "us-east-1"
     encrypt = true
