@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "mylife-myrule11-dev" 
-    key    = "terraform-eks-cluster"
+    key    = "terraform-acm"
     region = "us-east-1"
     encrypt = true
     use_lockfile = true
